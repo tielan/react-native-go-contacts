@@ -1,6 +1,6 @@
 {
   "name": "react-native-go-contacts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "nativePackage": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
@@ -17,16 +17,12 @@
     "people"
   ],
   "author": {
-    "name": "LynxIT Digital"
+    "name": "futielan"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tielan/react-native-go-contacts/issues"
   },
-  "homepage": "https://github.com/tielan/react-native-go-contacts",
-  "maintainers": [
-    {
-      "name": "Oliver Jacobs"
-    }
-  ]
+  "homepage": "https://github.com/tielan/react-native-go-contacts"
+  
 }

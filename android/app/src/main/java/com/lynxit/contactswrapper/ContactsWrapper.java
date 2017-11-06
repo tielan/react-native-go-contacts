@@ -96,8 +96,7 @@ public class ContactsWrapper extends ReactContextBaseJavaModule implements Activ
         }
     }
 
-    @Override
-    public void onActivityResult(final int requestCode, final int resultCode, final Intent intent) {
+    public void onActivityResult(Activity activity,final int requestCode, final int resultCode, final Intent intent) {
         if(mContactsPromise == null || mCtx == null
               || (requestCode != CONTACT_REQUEST && requestCode != EMAIL_REQUEST)){
           return;
@@ -235,6 +234,10 @@ public class ContactsWrapper extends ReactContextBaseJavaModule implements Activ
             }
         });
         listDialog.show();
+    }
+
+    public void onNewIntent(Intent intent){
+
     }
 
 }
