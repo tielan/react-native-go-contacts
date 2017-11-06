@@ -1,13 +1,13 @@
 {
-  "name": "react-native-contacts-wrapper",
-  "version": "0.2.4",
+  "name": "react-native-go-contacts",
+  "version": "0.0.1",
   "nativePackage": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LynxITDigital/react-native-contacts-wrapper.git"
+    "url": "git+https://github.com/tielan/react-native-go-contacts.git"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LynxITDigital/react-native-contacts-wrapper/issues"
+    "url": "https://github.com/tielan/react-native-go-contacts/issues"
   },
-  "homepage": "https://github.com/LynxITDigital/react-native-contacts-wrapper",
+  "homepage": "https://github.com/tielan/react-native-go-contacts",
   "maintainers": [
     {
       "name": "Oliver Jacobs"
